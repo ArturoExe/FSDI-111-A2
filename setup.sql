@@ -63,3 +63,48 @@ INSERT INTO user(
 );
 
 
+--Dummy data vehicle
+
+INSERT INTO vehicle_type (description) VALUES ("Truck");
+INSERT INTO vehicle_type (description) VALUES ("Car");
+INSERT INTO vehicle_type (description) VALUES ("SUV");
+INSERT INTO vehicle_type (description) VALUES ("Motorcycle");
+
+
+
+INSERT INTO vehicle (
+    color,
+    license_plate,
+    v_type,
+    owner_id
+)VALUES(
+    "red",
+    "HEll01",
+    1,
+    1
+);
+
+
+INSERT INTO vehicle (
+    color,
+    license_plate,
+    v_type,
+    owner_id
+)VALUES(
+    "blue",
+    "HEll02",
+    2,
+    2
+);
+
+INSERT INTO vehicle (
+    color,
+    license_plate,
+    v_type,
+    owner_id
+)VALUES(
+    "orange",
+    "Hi03",
+    3,
+    3
+);
