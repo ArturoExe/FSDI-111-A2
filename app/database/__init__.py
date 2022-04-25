@@ -1,6 +1,5 @@
 from multiprocessing.spawn import import_main_path
 #Module File
-
 from flask import g
 
 import sqlite3 
